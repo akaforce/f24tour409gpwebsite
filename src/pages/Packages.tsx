@@ -1,5 +1,4 @@
 import React from 'react';
-import NavBar from '../components/NavBar';
 import VodafoneParkStadium from '../images/VodafoneParkStadium5.webp';
 import Breakfast from '../images/DALL-E_image_breakfast.webp';
 import IstanbulPubCrawlParty from '../images/Istanbul_pub_crawl.jpg';
