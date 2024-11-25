@@ -10,8 +10,8 @@ const NavBar: React.FC<NavBarProps> = ({ setCurrentPage }) => {
   return (
     <div className='bg-gradient-to-r from-red-950 via-slate-950 to-red-950 flex flex-row  items-center justify-between px-[3%] py-9'>
       <div id='logos_aisle' className='flex flex-row w-[33%]'>
-        <img src={fifaNavLogo} alt='fifa logo' className='h-20 w-auto'  onClick={() => setCurrentPage('Home')} />
-        <img src={goTurkiyeLogo} alt='go turkiye logo' className='h-20 w-auto' onClick={() => window.open('https://www.visitsturkiye.com/', '_blank')}/>
+        <img src={fifaNavLogo} alt='fifa logo' className='h-20 w-auto cursor-pointer'  onClick={() => setCurrentPage('Home')} />
+        <img src={goTurkiyeLogo} alt='go turkiye logo' className='h-20 w-auto cursor-pointer' onClick={() => window.open('https://www.visitsturkiye.com/', '_blank')}/>
       </div>
 
       <div id='pages_nav' className='flex flex-row  h-[30%] text-xl font-semibold gap-3'>
