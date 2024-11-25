@@ -8,6 +8,7 @@ export default function Contact() {
         </div>
         <div className='m-5 p-10 bg-slate-300'>
             <h1 className='items-center text-center text-7xl'>Section 2</h1>
+            <p>here's our email</p>
         </div>
         <div className='m-5 p-10 bg-slate-300'>
             <h1 className='items-center text-center text-7xl'>Section 3</h1>
