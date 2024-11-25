@@ -1,40 +1,50 @@
-import React from 'react';
+import React, { useState } from 'react';
 // import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/NavBar'
 import Home from './pages/Home';
+import Matches from './pages/Matches';
+import Explore from './pages/Explore';
+import Sustainability from './pages/Sustainability';
+import Contact from './pages/Contact';
+import Media from './pages/Media';
+import Packages from './pages/Packages';
 
 function App() {
-  return (
-    // <div className="App">
-    //   <header className="App-header">
-    //     <img src={logo} className="App-logo" alt="logo" />
-    //     {/* <p>
-    //       Edit <code>src/App.tsx</code> and save to reload.
-    //     </p> */}
-    //     <p>
-    //       TOUR 409 Turkey Website
-    //     </p>
-    //     <a
-    //       className="App-link"
-    //       href="https://reactjs.org"
-    //       target="_blank"
-    //       rel="noopener noreferrer"
-    //     >
-    //       React Documentation
-    //     </a>
-    //   </header
+  const [currentPage, setCurrentPage] = useState('Home');
 
-    // main code
-    <div>
+  const renderPage = () => {
+    switch (currentPage) {
+      case 'Home':
+        return <Home />;
+      case 'Matches':
+        return <Matches />;
+      case 'Explore':
+        return <Explore />;
+      case 'Packages':
+        return <Packages />;
+      case 'Media':
+        return <Media />
+      case 'Sustainability':
+        return <Sustainability />
+      case 'Contact':
+        return <Contact />
+      default:
+        return <Home />;
+    }
+  };
+
+  return (
+    <div className='text-white font-josefin'>
       <div id='navHolder'>
-        <NavBar></NavBar>
+        <NavBar setCurrentPage={setCurrentPage}/>
       </div>
       <div id='pagePlaceholder'>
-        <Home></Home>
+        {renderPage()}
       </div>
     </div>
   );
+
 }
 
 export default App;
