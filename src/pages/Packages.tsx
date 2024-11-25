@@ -3,6 +3,9 @@ import NavBar from '../components/NavBar';
 import VodafoneParkStadium from '../images/VodafoneParkStadium5.webp';
 import Breakfast from '../images/DALL-E_image_breakfast.webp';
 import IstanbulPubCrawlParty from '../images/Istanbul_pub_crawl.jpg';
+import FestTechDay from '../images/Festival_and_Tech_Day.jpg';
+import VIPSeating from '../images/VIP_Seating.webp';
+import rooftop_hotel from '../images/rooftop_hotel.jpeg';
 
 import '../App.css';
 
@@ -11,7 +14,7 @@ export default function Packages() {
     return (
         <div className='bg-gradient-to-r from-red-950 via-slate-950 to-red-950 h-fit flex flex-col'>
             <div className='mx-5 mt-10 mb-5 p-10 bg-white bg-opacity-35'>
-                <h1 className='items-center text-center text-7xl'>Packages</h1>
+                <h1 className='items-center text-center text-8xl'>Packages</h1>
                 <br></br>
                 <p>
                     FIFA games typically span a month, and this itinerary showcases a sample weekend for tourists.
@@ -28,24 +31,27 @@ export default function Packages() {
                 <p>
                     Days are divided into morning, afternoon, and evening activities, with meals provided by the hotels unless otherwise chosen.
                 </p>
+                <p>
+                    This is a <b> sample itinerary </b> , and we can customize packages to suit your needs.
+                </p>
             </div>
 
 
             <div className="mx-5 mt-10 mb-5 p-5 bg-white bg-opacity-35 flex">
                 <div className="flex-1">
-                    <h1 className="items-center text-left text-5xl">Day 1</h1>
+                    <h1 className="items-center text-left text-7xl">Day 1</h1><br></br>
                     <div className="text-left">
                         <div className="flex">
                             <div className="flex-1">
                                 <p><b>Arrival at Istanbul Airport</b></p>
-                                <p>Guests will arrive at Istanbul Airport for a memorable morning at Beşiktaş Stadium. The day begins with breakfast followed by a PR event featuring meet-and-greets with star players, coaches, and key FIFA World Cup figures.</p>
-                                <p>Activities include photo sessions, autograph signings, and interviews, ensuring an unforgettable experience. Local shops and merchandisers will enhance the event by offering food, snacks, and merchandise that capture the spirit of Istanbul and the excitement of FIFA.</p>
+                                <p>Guests will arrive at Istanbul Airport &#9992; for a memorable morning at Beşiktaş Stadium. The day begins with breakfast followed by a PR event featuring meet-and-greets with star players, coaches, and key FIFA World Cup figures.</p>
+                                <p>Activities include photo sessions, autograph signings, and interviews. Local shops and merchandisers will BE offering food, snacks, and merchandise that capture the spirit of Istanbul and FIFA.</p>
                             </div>
                             <div className="flex-shrink-0 ml-5">
                                 <img
                                     src={VodafoneParkStadium}
                                     alt=""
-                                    className="w-80 object-cover"
+                                    className="w-96 object-cover"
                                 />
                             </div>
                         </div>
@@ -53,22 +59,20 @@ export default function Packages() {
 
                     <br></br><br></br>
 
-
                     <div className="flex">
                         <div className="flex-shrink-0 mr-5">
                             <img
                                 src={Breakfast}
                                 alt=""
-                                className="w-80 object-cover"
+                                className="w-96 object-cover"
                             />
                         </div>
                         <div className="flex-1">
-                            <p className="text-right"><b>More Beşiktaş Stadium</b></p>
-                            <p>During the afternoon, join us for a guided tour of Beşiktaş Stadium, offering a blend of exploration and education.</p>
+                            <p className="text-right"><b>Welcome to Beşiktaş Stadium</b></p>
+                            <p>During the afternoon, join us for a guided tour of Beşiktaş Stadium, offering a blend of exploration and education &#127967;</p>
                             <p>Highlights include visits to the team's facilities (locker room, training room), the stadium itself (field, seating, media room), and insights into its history, cultural significance, economic impact, and major events it has hosted.</p>
                         </div>
                     </div>
-
 
                     <br></br><br></br>
 
@@ -77,36 +81,115 @@ export default function Packages() {
                             <div className="flex-1">
                                 <br></br>
                                 <p><b>Party Time!</b></p>
-                                <p>Friday evening will begin with dinner, followed by one hour of personal time to relax or do as you wish.</p>
-                                <p>At night, we'll embark on a pub crawl—a pre-game party exploring all the hot spots in Istanbul for an unforgettable evening.</p>
-                                <p>Experience Istanbul's legendary nightlife without the worry of exploring an unknown city by night in Istanbul Pub Crawl.</p>
-                                <p>Long night? You'll be staying at Wyndham Istanbul Old City Hotel - 5-star hotel - $116 per night - 10-minute drive to stadium - includes a pool, bar, spa, gym and breakfast. Does tours as well. </p>
+                                <p>Friday evening will begin with dinner, followed by one hour of personal time to relax.</p>
+                                <p>At night, we'll embark on a pub crawl—a pre-game party exploring all the hot spots in Istanbul.</p>
+                                <p>Long night? You'll be staying at Wyndham Istanbul Old City Hotel - 5-star hotel with: included are a pool, bar, spa, gym, and breakfast &#128559;  </p>
                             </div>
                             <div className="flex-shrink-0 ml-5">
                                 <img
                                     src={IstanbulPubCrawlParty}
                                     alt="istanbulpartypubcrawl @instagram"
-                                    className="w-80 object-cover"
+                                    className="w-96 object-cover"
                                 />
                             </div>
                         </div>
                     </div>
 
-                    <br></br><br></br>
+
 
 
                 </div>
             </div>
 
             <div className='mx-5 mt-10 mb-5 p-5 bg-white bg-opacity-35'>
-                <h1 className='items-center text-right text-5xl'>Day 2</h1>
+                <h1 className='items-center text-right text-7xl'>Day 2</h1> <br></br>
+                <div className="text-left">
+                    <div className="flex">
+                        <div className="flex-1">
+                            <p><b>Festival & Tech Morning</b></p>
+                            <p>The morning will consist of breakfast and a Festival that includes:</p>
+                            <p>Guest appearances from retired players. </p>
+                            <p>Get face painted, buy jerseys, banners, and flags: Encourage your favorite team and Turkiye! &#128079;</p>
+                            <p>VR simulations of matches: meet and play with your favorite players digitally!</p>
+                        </div>
+                        <div className="flex-shrink-0 ml-5">
+                            <img
+                                src={FestTechDay}
+                                alt="Taken from Hamdi Firat Buyuk @Balkan Insight"
+                                className="w-96 object-cover"
+                            />
+                        </div>
+                    </div>
+                </div>
+
+                <br></br><br></br>
+
+                <div className="flex">
+                    <div className="flex-shrink-0 mr-5">
+                        <img
+                            src={VIPSeating}
+                            alt="From 'Nomadic Niko'"
+                            className="w-96 object-cover"
+                        />
+                    </div>
+                    <div className="flex-1">
+                        <p className="text-right"><b>Matches Start!</b></p>
+                        <p>The afternoon includes lunch and the Football &#9917; matches, the day’s main event, held between 4 PM and 9 PM.</p>
+                        <p>Guests will have free time to relax before the games.</p>
+                        <p>The package includes VIP seating with a private viewing area, cocktails, and snacks for a premium experience.</p>
+                    </div>
+                </div>
+
+                <br></br><br></br>
+
+                <div className="text-left">
+                    <div className="flex">
+                        <div className="flex-1">
+                            <br></br>
+                            <p><b>Chill Party Night &#128524; &#128526;</b></p>
+                            <p>The night will feature a rooftop party at the Wyndham Istanbul Old City Hotel, offering convenience for those staying there.</p>
+                            <p>Guests can easily head to bed when tired, making it a perfect balance of fun and relaxation.</p>
+                            <p>This event provides a flexible atmosphere, serving as either a lively turn-up or a calm wind-down, depending on each guest's energy level.</p>
+
+                        </div>
+                        <div className="flex-shrink-0 ml-5">
+                            <img
+                                src={rooftop_hotel}
+                                alt="from clickistanbulhotels.com"
+                                className="w-96 object-cover"
+                            />
+                        </div>
+                    </div>
+                </div>
 
             </div>
             <div className='mx-5 mt-10 mb-5 p-5 bg-white bg-opacity-35'>
-                <h1 className='items-center text-left text-5xl'>Day 3</h1>
+                <h1 className='items-center text-left text-5xl'>Day 3</h1><br></br>
+
+                <div className="text-left">
+                    <div className="flex">
+                        <div className="flex-1">
+                            <p><b>Coolest tourist attractions!</b></p>
+                            <p>Sunday is designated as an exploration day, allowing guests to discover Istanbul at their own pace.</p>
+                            <p>For convenience, we will partner with the hotel, which offers a variety of private guided tours.</p>
+                            <p>Guests can choose between joining a guided tour or exploring  solo.</p>
+                            <p>The day's schedule is organized by themes rather than specific activities, catering to the diverse interests of the group.</p>
+                        </div>
+                        <div className="flex-shrink-0 ml-5">
+                            <img
+                                src={VodafoneParkStadium}
+                                alt=""
+                                className="w-96 object-cover"
+                            />
+                        </div>
+                    </div>
+                </div>
+
+                <br></br><br></br>
+
             </div>
             <div className='mx-5 mt-10 mb-5 p-5 bg-white bg-opacity-35'>
-                <h1 className='items-center text-left text-5xl'>Day 4...</h1>
+                <h1 className='items-center text-left text-5xl'>Day 4...</h1><br></br>
                 <p>Looking to spend an extra day or more? </p>
                 <button>Contact us!</button>
             </div>
