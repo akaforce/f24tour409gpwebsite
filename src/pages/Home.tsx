@@ -45,7 +45,7 @@ import landscapes from '../images/cappadocia.jpg';
 //   )
 // }
 
-export default function Home() {
+export default function Home({ setCurrentPage }: { setCurrentPage: (page: string) => void }) {
   return (
     <div className='bg-slate-400 h-screen flex flex-col'>
         {/* Hero Section */}
@@ -124,9 +124,9 @@ export default function Home() {
                 Dive into our curated packages, match schedules, and cultural experiences. Discover what makes Turkiye the perfect host for FIFA 2034!
             </p>
             <div className='flex justify-center mt-5 space-x-10'>
-                <a href='/matches' className='text-xl underline text-yellow-400'>Matches</a>
-                <a href='/packages' className='text-xl underline text-yellow-400'>Packages</a>
-                <a href='/explore-turkiye' className='text-xl underline text-yellow-400'>Explore Turkiye</a>
+                <p className='text-xl underline text-yellow-400' onClick={() => setCurrentPage('Matches')}>Matches</p>
+                <p className='text-xl underline text-yellow-400' onClick={() => setCurrentPage('Packages')}>Packages</p>
+                <p className='text-xl underline text-yellow-400' onClick={() => setCurrentPage('Explore')}>Explore Turkiye</p>
             </div>
         </div>
     </div>

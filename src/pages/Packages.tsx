@@ -110,11 +110,6 @@ export default function Packages() {
                 <p>Looking to spend an extra day or more? </p>
                 <button>Contact us!</button>
             </div>
-
-
-
-
-
         </div>
     )
 }
