@@ -12,7 +12,7 @@ export default function Contact() {
                 className='w-full h-[500px] object-cover brightness-75'
             />
             <h1 className='absolute top-[175px] left-[33%] text-center text-9xl text-white font-bold'>Contact Us</h1>
-            <p className='absolute top-[280px] left-[12%] text-center text-5xl text-yellow-400'>
+            <p className='absolute top-[280px] left-[5%] text-center text-5xl text-yellow-400'>
                 Get in touch with us for all FIFA World Cup 2026 inquiries and support!
             </p>
         </div>

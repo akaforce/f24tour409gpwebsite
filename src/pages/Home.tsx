@@ -121,7 +121,7 @@ export default function Home({ setCurrentPage }: { setCurrentPage: (page: string
         <div className='m-5 p-10 bg-red-900'>
             <h1 className='text-center text-7xl font-bold text-white'>Explore More</h1>
             <p className='text-center text-2xl mt-5 text-gray-300'>
-                Dive into our curated packages, match schedules, and cultural experiences. Discover what makes Turkiye the perfect host for FIFA 2034!
+                Dive into our curated packages, match schedules, and cultural experiences. Discover what makes Turkiye the perfect host for FIFA 2026!
             </p>
             <div className='flex justify-center mt-5 space-x-10'>
                 <p className='text-xl underline text-yellow-400' onClick={() => setCurrentPage('Matches')}>Matches</p>
