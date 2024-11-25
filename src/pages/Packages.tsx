@@ -6,13 +6,32 @@ import IstanbulPubCrawlParty from '../images/Istanbul_pub_crawl.jpg';
 import FestTechDay from '../images/Festival_and_Tech_Day.jpg';
 import VIPSeating from '../images/VIP_Seating.webp';
 import rooftop_hotel from '../images/rooftop_hotel.jpeg';
+import grand_bazaar from '../images/grand_bazaar.webp';
+import balik_ekmek from '../images/balik_ekmek.jpg';
 
-import '../App.css';
+
+
+
+
+
 
 export default function Packages() {
 
     return (
+
+
+
         <div className='bg-gradient-to-r from-red-950 via-slate-950 to-red-950 h-fit flex flex-col'>
+
+
+            <style>{`
+            p {
+            font-size: 25px;`
+            }
+            </style>
+
+
+
             <div className='mx-5 mt-10 mb-5 p-10 bg-white bg-opacity-35'>
                 <h1 className='items-center text-center text-8xl'>Packages</h1>
                 <br></br>
@@ -169,16 +188,16 @@ export default function Packages() {
                 <div className="text-left">
                     <div className="flex">
                         <div className="flex-1">
-                            <p><b>Coolest tourist attractions!</b></p>
-                            <p>Sunday is designated as an exploration day, allowing guests to discover Istanbul at their own pace.</p>
-                            <p>For convenience, we will partner with the hotel, which offers a variety of private guided tours.</p>
-                            <p>Guests can choose between joining a guided tour or exploring  solo.</p>
-                            <p>The day's schedule is organized by themes rather than specific activities, catering to the diverse interests of the group.</p>
+                            <p><b>Cultural Immersion</b></p>
+                            <p>Private tour of the Grand Bazaar, the world's oldest shopping mall.</p>
+                            <p>The morning theme is “Dining with the Locals,” offering a range of unique culinary experiences</p>
+                            <p>Guests can choose from options like dining amidst nature (or in the city) with top tier meals &#127860;.</p>
+                            <p>Relaxation Option: Visitors can opt for a guided Bosphorus cruise.</p>
                         </div>
                         <div className="flex-shrink-0 ml-5">
                             <img
-                                src={VodafoneParkStadium}
-                                alt=""
+                                src={grand_bazaar}
+                                alt="From Turkey Travel Planner"
                                 className="w-96 object-cover"
                             />
                         </div>
@@ -187,11 +206,51 @@ export default function Packages() {
 
                 <br></br><br></br>
 
+                <div className="flex">
+                    <div className="flex-shrink-0 mr-5">
+                        <img
+                            src={balik_ekmek}
+                            alt="From Great British Chefs"
+                            className="w-96 object-cover"
+                        />
+                    </div>
+                    <div className="flex-1">
+                        <p className="text-right"><b>Afternoon (Landmark Exploration)</b></p>
+                        <p>Hagia Sophia Grand Mosque, Topkapi Palace, and the Blue Mosque.</p>
+                        <p><u>Another option:</u> Topkapi Palace Museum - Administrative Center of the Ottoman Empire.</p>
+                        <p>Guided tours offering insights into Istanbul's rich history. &#128218;</p>
+                        <p>Lunch: Savor street food favorites like Simit, Baklava, and Balık ekmek.</p>
+                    </div>
+                </div>
+
+                <br></br><br></br>
+
+                <div className="text-left">
+                    <div className="flex">
+                        <div className="flex-1">
+                            <br></br>
+                            <p><b>Evening (Street Market Adventures)</b></p>
+                            <p>Explore vibrant markets featuring local crafts and delicacies</p>
+                            <p>Capture the essence of Istanbul’s nightlife &#127747; in open-air bazaars.</p>
+                            <p>Istanbul has a variety of street markets and food to choose from so there will be no shortages of activities for tourists!</p>
+                        </div>
+                        <div className="flex-shrink-0 ml-5">
+                            <img
+                                src={IstanbulPubCrawlParty}
+                                alt="istanbulpartypubcrawl @instagram"
+                                className="w-96 object-cover"
+                            />
+                        </div>
+                    </div>
+                </div>
+
             </div>
             <div className='mx-5 mt-10 mb-5 p-5 bg-white bg-opacity-35'>
                 <h1 className='items-center text-left text-5xl'>Day 4...</h1><br></br>
-                <p>Looking to spend an extra day or more? </p>
-                <button>Contact us!</button>
+                <p>Looking to spend an extra day or more? <td></td>
+                <button className='text-2xl' > Contact us!</button>
+                </p>
+                
             </div>
 
 
