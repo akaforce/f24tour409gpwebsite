@@ -14,7 +14,7 @@ const NavBar: React.FC<NavBarProps> = ({ setCurrentPage }) => {
         <img src={goTurkiyeLogo} alt='go turkiye logo' className='h-20 w-auto' onClick={() => window.open('https://www.visitsturkiye.com/', '_blank')}/>
       </div>
 
-      <div id='pages_nav' className='flex flex-row w-[64%] h-[30%] text-xl font-semibold gap-3'>
+      <div id='pages_nav' className='flex flex-row  h-[30%] text-xl font-semibold gap-3'>
         <p className='cursor-pointer px-4 hover:text-red-300' onClick={() => setCurrentPage('Matches')}>Matches</p>
         <p className='cursor-pointer px-4 hover:text-red-300' onClick={() => setCurrentPage('Explore')}>Explore Türkiye</p>
         <p className='cursor-pointer px-4 hover:text-red-300' onClick={() => setCurrentPage('Packages')}>Packages</p>
