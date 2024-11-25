@@ -16,7 +16,7 @@ function App() {
   const renderPage = () => {
     switch (currentPage) {
       case 'Home':
-        return <Home />;
+        return <Home setCurrentPage={setCurrentPage} />;
       case 'Matches':
         return <Matches />;
       case 'Explore':
@@ -30,7 +30,7 @@ function App() {
       case 'Contact':
         return <Contact />
       default:
-        return <Home />;
+        return <Home setCurrentPage={setCurrentPage} />;
     }
   };
 
