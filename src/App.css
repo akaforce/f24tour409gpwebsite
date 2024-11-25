@@ -41,6 +41,7 @@
   }
 }
 
-p {
+/* pls dont set this globally, it affects the navbar too */
+/* p {
   font-size: 25px;
-}
+} */
