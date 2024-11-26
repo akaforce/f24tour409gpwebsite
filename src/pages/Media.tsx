@@ -12,13 +12,13 @@ export default function Media() {
                   className='w-full h-[500px] object-cover brightness-75'
               />
            
-              <h1 className="absolute top-[15%] left-[50%] transform -translate-x-1/2 text-center text-5xl md:text-6xl lg:text-7xl text-white font-bold">Media and Press</h1>
+              <h1 className="absolute top-[15%] left-[50%] transform -translate-x-1/2 text-center text-5xl md:text-6xl lg:text-4xl text-white font-bold">Media and Press</h1>
               <h2 className="absolute top-[45%] left-[50%] transform -translate-x-1/2 text-center text-xl md:text-4xl lg:text-5xl text-yellow-400 font-bold">Discover our marketing strategies, influencers, and media coverage for FIFA 2026 in Turkiye.</h2>
           </div>
   
           {/* Marketing Strategies Section */}
           <div className='m-5 p-10 bg-red-800'>
-              <h1 className='text-center text-7xl font-bold text-white'>Marketing Strategies</h1>
+              <h1 className='text-center text-4xl font-bold text-white'>Marketing Strategies</h1>
               <div className='mt-5 grid grid-cols-1 md:grid-cols-2 gap-5'>
                   <div className='p-5'>
                       <h2 className='text-4xl font-semibold text-white'>Social Media Campaigns</h2>
@@ -49,7 +49,7 @@ export default function Media() {
   
           {/* Influencers Section */}
           <div className='m-5 p-10 bg-black'>
-              <h1 className='text-center text-7xl font-bold text-red-500'>Influencers</h1>
+              <h1 className='text-center text-4xl font-bold text-red-500'>Influencers</h1>
               <div className='mt-5 grid grid-cols-1 md:grid-cols-3 gap-5'>
                   <div className='p-5 bg-red-900 rounded-lg'>
                       <h2 className='text-center text-4xl font-semibold text-yellow-400'>Viktoriya Sener</h2>
@@ -74,7 +74,7 @@ export default function Media() {
   
           {/* Media Partners Section */}
           <div className='m-5 p-10 bg-red-800'>
-              <h1 className='text-center text-7xl font-bold text-white'>Media Partners</h1>
+              <h1 className='text-center text-4xl font-bold text-white'>Media Partners</h1>
               <div className='mt-5 grid grid-cols-1 md:grid-cols-2 gap-5'>
                   <div className='p-5'>
                       <h2 className='text-4xl font-semibold text-white'>BBC Travel</h2>
@@ -104,7 +104,7 @@ export default function Media() {
           </div>
   
           <div className='m-5 p-10 bg-black'>
-              <h1 className='text-center text-7xl font-bold text-red-500'>News Headlines About Us</h1>
+              <h1 className='text-center text-4xl font-bold text-red-500'>News Headlines About Us</h1>
               <div className='mt-5 grid grid-cols-1 md:grid-cols-2 gap-5'>
                   <div className='p-5 bg-red-900 rounded-lg'>
                       <h2 className='text-center text-2xl font-semibold text-yellow-400'>

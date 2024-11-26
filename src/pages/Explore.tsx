@@ -29,7 +29,7 @@ export default function Explore() {
   
           {/* Cities Section */}
           <div className='m-5 p-10 bg-red-800'>
-              <h1 className='text-center text-7xl font-bold text-white'>Turkish Cities to Visit</h1>
+              <h1 className='text-center text-4xl font-bold text-white'>Turkish Cities to Visit</h1>
               <div className='mt-5 grid grid-cols-1 md:grid-cols-2 gap-5'>
                   <div className='p-5'>
                       <img 
@@ -80,7 +80,7 @@ export default function Explore() {
   
           {/* Landmarks Section */}
           <div className='m-5 p-10 bg-black'>
-              <h1 className='text-center text-7xl font-bold text-red-500'>Turkish Landmarks</h1>
+              <h1 className='text-center text-4xl font-bold text-red-500'>Turkish Landmarks</h1>
               <div className='mt-5 grid grid-cols-1 md:grid-cols-2 gap-5'>
                   <div className='p-5'>
                       <img 
@@ -131,7 +131,7 @@ export default function Explore() {
   
           {/* Culture and Food Section */}
           <div className='m-5 p-10 bg-red-800'>
-              <h1 className='text-center text-7xl font-bold text-white'>Turkish Culture & Food</h1>
+              <h1 className='text-center text-4xl font-bold text-white'>Turkish Culture & Food</h1>
               <div className='mt-5 grid grid-cols-1 md:grid-cols-2 gap-5'>
                   <div className='p-5'>
                       <img 

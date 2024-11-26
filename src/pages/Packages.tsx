@@ -27,7 +27,7 @@ export default function Packages() {
       </div>
           {/* Day 1 Section */}
           <div className='mx-5 mt-10 mb-5 p-5 bg-red-800'>
-        <h1 className='text-center text-7xl text-yellow-400 font-bold'>Day 1: Friday - Immersive Football Kickoff</h1>
+        <h1 className='text-center text-4xl text-yellow-400 font-bold'>Day 1: Friday - Immersive Football Kickoff</h1>
 
         {/* Morning */}
         <h2 className='text-left text-5xl text-white font-bold mt-10'>Morning</h2>
@@ -86,7 +86,7 @@ export default function Packages() {
 
       {/* Day 2 Section */}
       <div className='mx-5 mt-10 mb-5 p-5 bg-black'>
-        <h1 className='text-center text-7xl text-yellow-400 font-bold'>Day 2: Saturday - The Big Game Experience</h1>
+        <h1 className='text-center text-4xl text-yellow-400 font-bold'>Day 2: Saturday - The Big Game Experience</h1>
 
         {/* Morning */}
         <h2 className='text-left text-5xl text-white font-bold mt-10'>Morning (Pre-Game Festival)</h2>
@@ -146,7 +146,7 @@ export default function Packages() {
 
       {/* Day 3 Section */}
       <div className='mx-5 mt-10 mb-5 p-5 bg-red-800'>
-        <h1 className='text-center text-7xl text-yellow-400 font-bold'>Day 3: Sunday - Explore Istanbul</h1>
+        <h1 className='text-center text-4xl text-yellow-400 font-bold'>Day 3: Sunday - Explore Istanbul</h1>
 
         {/* Morning */}
         <h2 className='text-left text-5xl text-white font-bold mt-10'>Morning (Cultural Immersion)</h2>
