@@ -11,8 +11,8 @@ export default function Contact() {
                 alt='Contact Us Banner' 
                 className='w-full h-[500px] object-cover brightness-75'
             />
-            <h1 className="absolute top-[35%] left-[50%] transform -translate-x-1/2 text-center text-5xl md:text-6xl lg:text-7xl text-white font-bold">Contact Us</h1>
-        <h2 className="absolute top-[50%] left-[50%] transform -translate-x-1/2 text-center text-2xl md:text-4xl lg:text-5xl text-yellow-400 font-bold">Get in touch with us for all FIFA World Cup 2026 inquiries and support!</h2>
+            <h1 className="absolute top-[15%] left-[50%] transform -translate-x-1/2 text-center text-5xl md:text-6xl lg:text-7xl text-white font-bold">Contact Us</h1>
+        <h2 className="absolute top-[40%] left-[50%] transform -translate-x-1/2 text-center text-2xl md:text-4xl lg:text-5xl text-yellow-400 font-bold">Get in touch with us for all FIFA World Cup 2026 inquiries and support!</h2>
         </div>
 
         {/* Contact Information Section */}

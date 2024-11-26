@@ -21,7 +21,7 @@ export default function Packages() {
           className='w-full h-[700px] object-cover brightness-50'
         />
         <h1 className="absolute top-[15%] left-[50%] transform -translate-x-1/2 text-center text-5xl md:text-5xl lg:text-6xl text-white font-bold">Our FIFA Experiences™ Package</h1>
-        <h2 className="absolute top-[35%] left-[50%] transform -translate-x-1/2 text-center text-2xl md:text-4xl lg:text-4xl text-yellow-400 font-bold">The FIFA games span a month, and this itinerary showcases a sample weekend for tourists. 
+        <h2 className="absolute top-[40%] left-[50%] transform -translate-x-1/2 text-center text-base md:text-4xl lg:text-4xl text-yellow-400 font-bold">The FIFA games span a month, and this itinerary showcases a sample weekend for tourists. 
           Tourists stay at Wyndham Istanbul Old City Hotel or Artisan Istanbul MGallery, with games at Beşiktaş Stadium. 
           This is a sample itinerary for the Istanbul wekeend, and for each city weekend package, there is a different itinerary.</h2>
       </div>

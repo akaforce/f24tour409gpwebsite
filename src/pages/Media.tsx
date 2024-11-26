@@ -12,8 +12,8 @@ export default function Media() {
                   className='w-full h-[500px] object-cover brightness-75'
               />
            
-              <h1 className="absolute top-[35%] left-[50%] transform -translate-x-1/2 text-center text-5xl md:text-6xl lg:text-7xl text-white font-bold">Media and Press</h1>
-              <h2 className="absolute top-[55%] left-[50%] transform -translate-x-1/2 text-center text-2xl md:text-4xl lg:text-5xl text-yellow-400 font-bold">Discover our marketing strategies, influencers, and media coverage for FIFA 2026 in Turkiye.</h2>
+              <h1 className="absolute top-[15%] left-[50%] transform -translate-x-1/2 text-center text-5xl md:text-6xl lg:text-7xl text-white font-bold">Media and Press</h1>
+              <h2 className="absolute top-[45%] left-[50%] transform -translate-x-1/2 text-center text-xl md:text-4xl lg:text-5xl text-yellow-400 font-bold">Discover our marketing strategies, influencers, and media coverage for FIFA 2026 in Turkiye.</h2>
           </div>
   
           {/* Marketing Strategies Section */}

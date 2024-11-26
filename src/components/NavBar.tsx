@@ -16,7 +16,7 @@ const NavBar: React.FC<NavBarProps> = ({ setCurrentPage }) => {
         <img
           src={fifaNavLogo}
           alt="fifa logo"
-          className="h-16 w-auto cursor-pointer"
+          className="h-14 w-auto cursor-pointer"
           onClick={() => setCurrentPage('Home')}
         />
         <img
