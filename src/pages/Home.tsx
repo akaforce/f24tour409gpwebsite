@@ -11,9 +11,9 @@ export default function Home({ setCurrentPage }: { setCurrentPage: (page: string
         {/* Hero Section */}
         <div className='bg-slate-300 relative'>
             <img src={stadium} alt='Ataturk Stadium' className='w-full brightness-50'/>
-            <h1 className="absolute top-[10%] left-[50%] transform -translate-x-1/2 text-center text-2xl md:text-5xl lg:text-7xl text-white font-bold">Welcome To</h1>
-            <img src={FTlogo} alt='logo' className='absolute top-[18%] left-[10%] h-auto w-[85%]'/> 
-            <p className="absolute top-[55%] left-[50%] transform -translate-x-1/2 px-4 md:px-4 lg:px-4 text-center text-base md:text-2xl lg:text-4xl text-white leading-relaxed">
+            <h1 className="absolute top-[8%] left-[50%] transform -translate-x-1/2 text-center text-2xl md:text-5xl lg:text-7xl text-white font-bold">Welcome To</h1>
+            <img src={FTlogo} alt='logo' className='absolute top-[15%] left-[10%] h-auto w-[85%]'/> 
+            <p className="absolute top-[52%] left-[50%] transform -translate-x-1/2 px-4 md:px-4 lg:px-4 text-center text-sm md:text-2xl lg:text-4xl text-white leading-relaxed">
                 Discover the magic of football in Turkey – where East meets West, passion meets culture.
             </p>
         </div>

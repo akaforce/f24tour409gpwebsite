@@ -12,7 +12,7 @@ const NavBar: React.FC<NavBarProps> = ({ setCurrentPage }) => {
   return (
     <div className="bg-gradient-to-r from-red-950 via-slate-950 to-red-950 flex flex-row items-center justify-between px-[3%] py-5">
       {/* Logos Section */}
-      <div id="logos_aisle" className="flex flex-row w-[33%]">
+      <div id="logos_aisle" className="flex flex-row items-center justify-center">
         <img
           src={fifaNavLogo}
           alt="fifa logo"
