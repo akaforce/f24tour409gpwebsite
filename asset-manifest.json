@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/f24tour409gpwebsite/static/css/main.f2b34c61.css",
-    "main.js": "/f24tour409gpwebsite/static/js/main.08fcf762.js",
+    "main.css": "/f24tour409gpwebsite/static/css/main.91834ae7.css",
+    "main.js": "/f24tour409gpwebsite/static/js/main.e4c2792c.js",
     "static/js/453.4084408f.chunk.js": "/f24tour409gpwebsite/static/js/453.4084408f.chunk.js",
     "static/media/hagisophia.jpg": "/f24tour409gpwebsite/static/media/hagisophia.78ae5815afeb4143f672.jpg",
     "static/media/playplay.png": "/f24tour409gpwebsite/static/media/playplay.f80b50893a9fe199b205.png",
@@ -38,12 +38,12 @@
     "static/media/turkiyelogo_transdark.png": "/f24tour409gpwebsite/static/media/turkiyelogo_transdark.fb2001ba3713904dd51e.png",
     "static/media/Istanbul_pub_crawl.jpg": "/f24tour409gpwebsite/static/media/Istanbul_pub_crawl.8a87f77bf7f545d5beb8.jpg",
     "index.html": "/f24tour409gpwebsite/index.html",
-    "main.f2b34c61.css.map": "/f24tour409gpwebsite/static/css/main.f2b34c61.css.map",
-    "main.08fcf762.js.map": "/f24tour409gpwebsite/static/js/main.08fcf762.js.map",
+    "main.91834ae7.css.map": "/f24tour409gpwebsite/static/css/main.91834ae7.css.map",
+    "main.e4c2792c.js.map": "/f24tour409gpwebsite/static/js/main.e4c2792c.js.map",
     "453.4084408f.chunk.js.map": "/f24tour409gpwebsite/static/js/453.4084408f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2b34c61.css",
-    "static/js/main.08fcf762.js"
+    "static/css/main.91834ae7.css",
+    "static/js/main.e4c2792c.js"
   ]
 }
