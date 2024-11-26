@@ -85,7 +85,7 @@ export default function Packages() {
                                 className="w-96 object-cover"
                             /> <p className="text-2xl text-white text-center">Beşiktaş Stadium</p>
                         </div>
-                        <div className="flex-1 bg-red-900 p-1">
+                        <div className="flex-1 bg-red-900 p-1 text-right">
                             <p className="text-right"><b>Welcome to Beşiktaş Stadium</b></p>
                             <p>During the afternoon, join us for a guided tour of Beşiktaş Stadium, offering a blend of exploration and education &#127967;</p>
                             <p>Highlights include visits to the team's facilities (locker room, training room), the stadium itself (field, seating, media room), and insights into its history, cultural significance, economic impact, and major events it has hosted.</p>
@@ -150,7 +150,7 @@ export default function Packages() {
                             className="w-96 object-cover"
                         /> <p className="text-2xl text-white text-center">From 'Nomadic Niko'</p>
                     </div>
-                    <div className="flex-1 bg-red-900 p-1">
+                    <div className="flex-1 bg-red-900 p-1 text-right">
                         <p className="text-right"><b>Matches Start!</b></p>
                         <p>The afternoon includes lunch and the Football &#9917; matches, the day’s main event, held between 4 PM and 9 PM.</p>
                         <p>Guests will have free time to relax before the games.</p>
@@ -213,7 +213,7 @@ export default function Packages() {
                             className="w-96 object-cover"
                         /> <p className="text-2xl text-white text-center">Tasty Balik Ekmek!</p>
                     </div>
-                    <div className="flex-1 bg-red-900 p-1">
+                    <div className="flex-1 bg-red-900 p-1 text-right">
                         <p className="text-right"><b>Afternoon (Landmark Exploration)</b></p>
                         <p>Hagia Sophia Grand Mosque, Topkapi Palace, and the Blue Mosque.</p>
                         <p><u>Another option:</u> Topkapi Palace Museum - Administrative Center of the Ottoman Empire.</p>
