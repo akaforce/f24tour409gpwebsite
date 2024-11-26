@@ -1,13 +1,12 @@
 {
   "files": {
     "main.css": "/f24tour409gpwebsite/static/css/main.2a2c32f7.css",
-    "main.js": "/f24tour409gpwebsite/static/js/main.859076ef.js",
+    "main.js": "/f24tour409gpwebsite/static/js/main.2882e108.js",
     "static/js/453.4084408f.chunk.js": "/f24tour409gpwebsite/static/js/453.4084408f.chunk.js",
     "static/media/hagisophia.jpg": "/f24tour409gpwebsite/static/media/hagisophia.78ae5815afeb4143f672.jpg",
     "static/media/playplay.png": "/f24tour409gpwebsite/static/media/playplay.f80b50893a9fe199b205.png",
     "static/media/fifaturkeylogo_transdark.png": "/f24tour409gpwebsite/static/media/fifaturkeylogo_transdark.d2c7aa6d7b5b4fa966cc.png",
     "static/media/cappadocia.jpg": "/f24tour409gpwebsite/static/media/cappadocia.cfc5ae9b7bdaea9420ea.jpg",
-    "static/media/sustainability_istanbul.png": "/f24tour409gpwebsite/static/media/sustainability_istanbul.728bd36fe84afdef3c56.png",
     "static/media/skyeline.jpg": "/f24tour409gpwebsite/static/media/skyeline.0e8e6e15ef5585c93ac4.jpg",
     "static/media/grand_bazaar.webp": "/f24tour409gpwebsite/static/media/grand_bazaar.a8c6aaf05df2001285df.webp",
     "static/media/istanbull.jpg": "/f24tour409gpwebsite/static/media/istanbull.12fec8bc3ce71862aeee.jpg",
@@ -23,6 +22,7 @@
     "static/media/ethonos.jpg": "/f24tour409gpwebsite/static/media/ethonos.4cbe3002af6cbbea95ed.jpg",
     "static/media/packages_background.webp": "/f24tour409gpwebsite/static/media/packages_background.21376cdd159ba637ef1a.webp",
     "static/media/Travertines-Pamukkale.jpg": "/f24tour409gpwebsite/static/media/Travertines-Pamukkale.1a139ef91748cb98895f.jpg",
+    "static/media/sust.jpg": "/f24tour409gpwebsite/static/media/sust.2906a195774e1620006e.jpg",
     "static/media/footballfans.jpg": "/f24tour409gpwebsite/static/media/footballfans.3798b497ae9120d7fb02.jpg",
     "static/media/cultrue.jpg": "/f24tour409gpwebsite/static/media/cultrue.825e8750164cb0ea8e1a.jpg",
     "static/media/Ephesus-Turkey.jpg": "/f24tour409gpwebsite/static/media/Ephesus-Turkey.1f8a84ae471f9c8d246f.jpg",
@@ -39,11 +39,11 @@
     "static/media/Istanbul_pub_crawl.jpg": "/f24tour409gpwebsite/static/media/Istanbul_pub_crawl.8a87f77bf7f545d5beb8.jpg",
     "index.html": "/f24tour409gpwebsite/index.html",
     "main.2a2c32f7.css.map": "/f24tour409gpwebsite/static/css/main.2a2c32f7.css.map",
-    "main.859076ef.js.map": "/f24tour409gpwebsite/static/js/main.859076ef.js.map",
+    "main.2882e108.js.map": "/f24tour409gpwebsite/static/js/main.2882e108.js.map",
     "453.4084408f.chunk.js.map": "/f24tour409gpwebsite/static/js/453.4084408f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2a2c32f7.css",
-    "static/js/main.859076ef.js"
+    "static/js/main.2882e108.js"
   ]
 }
