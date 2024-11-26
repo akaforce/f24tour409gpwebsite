@@ -8,6 +8,8 @@ import rooftop_hotel from '../images/rooftop_hotel.jpeg';
 import grand_bazaar from '../images/grand_bazaar.webp';
 import balik_ekmek from '../images/balik_ekmek.jpg';
 
+import packages_background from '../images/packages_background.webp';
+
 
 
 
@@ -31,46 +33,44 @@ export default function Packages() {
 
 
 
-            <div className='mx-5 mt-10 mb-5 p-10 bg-white bg-opacity-35'>
-                <h1 className='items-center text-center text-8xl'>Packages</h1>
-                <br></br>
-                <p>
-                    FIFA games typically span a month, and this itinerary showcases a sample weekend for tourists.
-                </p>
-                <br></br>
-                <p>
-                    Considering our target audience and Istanbul's offerings, we've crafted a top-tier experience.
-                </p>
-                <br></br>
-                <p>
-                    Tourists are assumed to stay at Wyndham Istanbul Old City Hotel or Artisan Istanbul MGallery, with games at Beşiktaş Stadium.
-                </p>
-                <br></br>
-                <p>
-                    Days are divided into morning, afternoon, and evening activities, with meals provided by the hotels unless otherwise chosen.
-                </p>
-                <p>
-                    This is a <b> sample itinerary </b> , and we can customize packages to suit your needs.
-                </p>
+            <div className='mx-0 mt-10 mb-5  bg-red-700 bg-opacity-35'>
+                <div className='bg-red-700 relative'>
+                    <img
+                        src={packages_background}
+                        alt='Contact Us Banner'
+                        className='w-full h-[700px] object-cover brightness-50'
+                    />
+                    <h1 className='absolute top-[155px] text-center text-9xl text-white font-bold'>Packages</h1>
+                    <p className='absolute top-[280px] text-left text-5xl text-yellow-400 p-2'>
+                    FIFA games typically span a month, and this itinerary showcases a sample weekend for tourists.<br></br>
+                    Considering our target audience and Istanbul's offerings, we've crafted a top-tier experience. <br></br>
+                    Tourists are assumed to stay at Wyndham Istanbul Old City Hotel or Artisan Istanbul MGallery, with games at Beşiktaş Stadium.<br></br>
+                    Days are divided into morning, afternoon, and evening activities, with meals provided by the hotels unless otherwise chosen.<br></br>
+                    This is a sample itinerary, and we can customize packages to suit <u>your needs</u>.
+
+                    </p>
+
+                </div>
+
             </div>
 
 
-            <div className="mx-5 mt-10 mb-5 p-5 bg-white bg-opacity-35 flex">
-                <div className="flex-1">
+            <div className="mx-5 mt-10 mb-5 p-5 bg-black bg-opacity-100 flex">
+                <div className="flex-1 ">
                     <h1 className="items-center text-left text-7xl">Day 1</h1><br></br>
                     <div className="text-left">
                         <div className="flex">
-                            <div className="flex-1">
+                            <div className="flex-1 bg-red-900 p-1">
                                 <p><b>Arrival at Istanbul Airport</b></p>
                                 <p>Guests will arrive at Istanbul Airport &#9992; for a memorable morning at Beşiktaş Stadium. The day begins with breakfast followed by a PR event featuring meet-and-greets with star players, coaches, and key FIFA World Cup figures.</p>
                                 <p>Activities include photo sessions, autograph signings, and interviews. Local shops and merchandisers will BE offering food, snacks, and merchandise that capture the spirit of Istanbul and FIFA.</p>
                             </div>
                             <div className="flex-shrink-0 ml-5">
                                 <img
-                                    src={VodafoneParkStadium}
-                                    alt=""
+                                    src={Breakfast}
+                                    alt="Beşiktaş Stadium"
                                     className="w-96 object-cover"
-                                />
+                                /> <p className="text-2xl text-white text-center">Turkish Breakfast</p>
                             </div>
                         </div>
                     </div>
@@ -80,12 +80,12 @@ export default function Packages() {
                     <div className="flex">
                         <div className="flex-shrink-0 mr-5">
                             <img
-                                src={Breakfast}
+                                src={VodafoneParkStadium}
                                 alt=""
                                 className="w-96 object-cover"
-                            />
+                            /> <p className="text-2xl text-white text-center">Beşiktaş Stadium</p>
                         </div>
-                        <div className="flex-1">
+                        <div className="flex-1 bg-red-900 p-1">
                             <p className="text-right"><b>Welcome to Beşiktaş Stadium</b></p>
                             <p>During the afternoon, join us for a guided tour of Beşiktaş Stadium, offering a blend of exploration and education &#127967;</p>
                             <p>Highlights include visits to the team's facilities (locker room, training room), the stadium itself (field, seating, media room), and insights into its history, cultural significance, economic impact, and major events it has hosted.</p>
@@ -96,7 +96,7 @@ export default function Packages() {
 
                     <div className="text-left">
                         <div className="flex">
-                            <div className="flex-1">
+                            <div className="flex-1 bg-red-900 p-1">
                                 <br></br>
                                 <p><b>Party Time!</b></p>
                                 <p>Friday evening will begin with dinner, followed by one hour of personal time to relax.</p>
@@ -108,7 +108,7 @@ export default function Packages() {
                                     src={IstanbulPubCrawlParty}
                                     alt="istanbulpartypubcrawl @instagram"
                                     className="w-96 object-cover"
-                                />
+                                /> <p className="text-2xl text-white text-center">Istanbul Party Pub Crawl @instagram</p>
                             </div>
                         </div>
                     </div>
@@ -119,11 +119,11 @@ export default function Packages() {
                 </div>
             </div>
 
-            <div className='mx-5 mt-10 mb-5 p-5 bg-white bg-opacity-35'>
+            <div className='mx-5 mt-10 mb-5 p-5 bg-black bg-opacity-100'>
                 <h1 className='items-center text-right text-7xl'>Day 2</h1> <br></br>
                 <div className="text-left">
                     <div className="flex">
-                        <div className="flex-1">
+                        <div className="flex-1 bg-red-900 p-1">
                             <p><b>Festival & Tech Morning</b></p>
                             <p>The morning will consist of breakfast and a Festival that includes:</p>
                             <p>Guest appearances from retired players. </p>
@@ -135,7 +135,7 @@ export default function Packages() {
                                 src={FestTechDay}
                                 alt="Taken from Hamdi Firat Buyuk @Balkan Insight"
                                 className="w-96 object-cover"
-                            />
+                            /> <p className="text-2xl text-white text-center">Taken from Hamdi Firat Buyuk<br></br> @Balkan Insight</p>
                         </div>
                     </div>
                 </div>
@@ -148,9 +148,9 @@ export default function Packages() {
                             src={VIPSeating}
                             alt="From 'Nomadic Niko'"
                             className="w-96 object-cover"
-                        />
+                        /> <p className="text-2xl text-white text-center">From 'Nomadic Niko'</p>
                     </div>
-                    <div className="flex-1">
+                    <div className="flex-1 bg-red-900 p-1">
                         <p className="text-right"><b>Matches Start!</b></p>
                         <p>The afternoon includes lunch and the Football &#9917; matches, the day’s main event, held between 4 PM and 9 PM.</p>
                         <p>Guests will have free time to relax before the games.</p>
@@ -162,7 +162,7 @@ export default function Packages() {
 
                 <div className="text-left">
                     <div className="flex">
-                        <div className="flex-1">
+                        <div className="flex-1 bg-red-900 p-1">
                             <br></br>
                             <p><b>Chill Party Night &#128524; &#128526;</b></p>
                             <p>The night will feature a rooftop party at the Wyndham Istanbul Old City Hotel, offering convenience for those staying there.</p>
@@ -175,18 +175,18 @@ export default function Packages() {
                                 src={rooftop_hotel}
                                 alt="from clickistanbulhotels.com"
                                 className="w-96 object-cover"
-                            />
+                            /> <p className="text-2xl text-white text-center">Reserve on clickistanbulhotels</p>
                         </div>
                     </div>
                 </div>
 
             </div>
-            <div className='mx-5 mt-10 mb-5 p-5 bg-white bg-opacity-35'>
-                <h1 className='items-center text-left text-5xl'>Day 3</h1><br></br>
+            <div className='mx-5 mt-10 mb-5 p-5 bg-black bg-opacity-100'>
+                <h1 className='items-center text-left text-7xl'>Day 3</h1><br></br>
 
                 <div className="text-left">
                     <div className="flex">
-                        <div className="flex-1">
+                        <div className="flex-1 bg-red-900 p-1">
                             <p><b>Cultural Immersion</b></p>
                             <p>Private tour of the Grand Bazaar, the world's oldest shopping mall.</p>
                             <p>The morning theme is “Dining with the Locals,” offering a range of unique culinary experiences</p>
@@ -211,9 +211,9 @@ export default function Packages() {
                             src={balik_ekmek}
                             alt="From Great British Chefs"
                             className="w-96 object-cover"
-                        />
+                        /> <p className="text-2xl text-white text-center">Tasty Balik Ekmek!</p>
                     </div>
-                    <div className="flex-1">
+                    <div className="flex-1 bg-red-900 p-1">
                         <p className="text-right"><b>Afternoon (Landmark Exploration)</b></p>
                         <p>Hagia Sophia Grand Mosque, Topkapi Palace, and the Blue Mosque.</p>
                         <p><u>Another option:</u> Topkapi Palace Museum - Administrative Center of the Ottoman Empire.</p>
@@ -226,7 +226,7 @@ export default function Packages() {
 
                 <div className="text-left">
                     <div className="flex">
-                        <div className="flex-1">
+                        <div className="flex-1 bg-red-900 p-1">
                             <br></br>
                             <p><b>Evening (Street Market Adventures)</b></p>
                             <p>Explore vibrant markets featuring local crafts and delicacies</p>
@@ -238,18 +238,18 @@ export default function Packages() {
                                 src={IstanbulPubCrawlParty}
                                 alt="istanbulpartypubcrawl @instagram"
                                 className="w-96 object-cover"
-                            />
+                            /> <p className="text-2xl text-white text-center">Party Nightlife!</p>
                         </div>
                     </div>
                 </div>
 
             </div>
-            <div className='mx-5 mt-10 mb-5 p-5 bg-white bg-opacity-35'>
-                <h1 className='items-center text-left text-5xl'>Day 4...</h1><br></br>
-                <p>Looking to spend an extra day or more? <td></td>
-                <button className='text-2xl' > Contact us!</button>
+            <div className='mx-5 mt-10 mb-5 p-5 bg-vlack bg-opacity-100'>
+                <h1 className='items-center text-left text-7xl'>Day 4...</h1><br></br>
+                <p className='bg-red-900 p-8'>Looking to spend an extra day or more? <td></td>
+                    <button className='text-2xl' > Contact us!</button>
                 </p>
-                
+
             </div>
         </div>
     )
