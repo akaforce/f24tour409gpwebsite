@@ -1,5 +1,5 @@
 import React from 'react';
-import sustainability_istanbul from '../images/sustainability_istanbul.png';
+import sustainability_istanbul from '../images/sust.jpg';
 
 export default function Sustainability() {
   return (
