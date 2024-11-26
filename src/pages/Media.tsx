@@ -11,8 +11,8 @@ export default function Media() {
                   alt='Media Banner' 
                   className='w-full h-[500px] object-cover brightness-75'
               />
-              <h1 className='absolute top-[200px] left-[40%] text-center text-9xl text-white font-bold'>Media</h1>
-              <p className='absolute top-[300px] left-[12%] text-center text-4xl text-yellow-400'>
+              <h1 className='absolute top-[200px] left-[23%] text-center text-9xl text-white font-bold'>Media and Press</h1>
+              <p className='absolute top-[300px] left-[8%] text-center text-4xl text-yellow-400'>
                   Discover our marketing strategies, influencers, and media coverage for FIFA 2026 in Turkiye.
               </p>
           </div>

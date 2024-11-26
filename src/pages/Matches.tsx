@@ -15,8 +15,8 @@ export default function Matches() {
                   alt='Fans Cheering' 
                   className='w-full h-[500px] object-cover brightness-75'
               />
-              <h1 className='absolute top-[150px] left-[33%] text-center text-9xl text-white font-bold'>Match Day</h1>
-              <h2 className='absolute top-[250px] left-[32%] text-center text-7xl text-yellow-400 font-bold'>FIFA 2026 in Turkiye</h2>
+              <h1 className='absolute top-[150px] left-[32%] text-center text-9xl text-white font-bold'>Match Day</h1>
+              <h2 className='absolute top-[250px] left-[31%] text-center text-7xl text-yellow-400 font-bold'>FIFA 2026 in Turkiye</h2>
           </div>
   
           {/* Stadiums Section */}
