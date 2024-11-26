@@ -9,15 +9,19 @@ export default function Matches() {
     return (
       <div className='bg-black h-screen flex flex-col'>
           {/* Hero Section */}
-          <div className='bg-red-700 relative'>
-              <img 
-                  src={fanscheering} 
-                  alt='Fans Cheering' 
-                  className='w-full h-[500px] object-cover brightness-75'
-              />
-              <h1 className='absolute top-[150px] left-[32%] text-center text-9xl text-white font-bold'>Match Day</h1>
-              <h2 className='absolute top-[250px] left-[31%] text-center text-7xl text-yellow-400 font-bold'>FIFA 2026 in Turkiye</h2>
-          </div>
+          <div className="bg-red-700 relative">
+            <img
+                src={fanscheering}
+                alt="Fans Cheering"
+                className="w-full h-[300px] md:h-[400px] lg:h-[500px] object-cover brightness-75"
+            />
+            <h1 className="absolute top-[35%] left-[50%] transform -translate-x-1/2 text-center text-5xl md:text-6xl lg:text-9xl text-white font-bold">
+                Match Day
+            </h1>
+            <h2 className="absolute top-[55%] left-[50%] transform -translate-x-1/2 text-center text-2xl md:text-4xl lg:text-7xl text-yellow-400 font-bold">
+                FIFA 2026 in Turkiye
+            </h2>
+            </div>
   
           {/* Stadiums Section */}
           <div className='m-5 p-10 bg-red-800'>

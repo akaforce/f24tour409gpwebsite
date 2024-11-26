@@ -5,55 +5,15 @@ import culture from '../images/cultrue.jpg';
 import fans from '../images/footballfans.jpg';
 import landscapes from '../images/cappadocia.jpg';
 
-// export default function Home() {
-//   return (
-//     // <div className='bg-slate-400 h-screen flex flex-col'>
-//     //     <div className='bg-slate-300'>
-//     //         <img src={stadium} alt='ataturk stadium' className='w-full brightness-50'/>
-//     //         <h1 className='absolute top-[300px] left-[35%] text-center text-9xl'>Welcome To</h1>
-//     //         <img src={FTlogo} alt='logo' className='absolute top-[389px] left-[10%] h-auto w-[85%]'/>         
-//     //     </div>
-//     //     <div className='m-5 p-10 bg-slate-300'>
-//     //         <h1 className='items-center text-center text-7xl'>Section 2</h1>
-//     //     </div>
-//     //     <div className='m-5 p-10 bg-slate-300'>
-//     //         <h1 className='items-center text-center text-7xl'>Section 3</h1>
-//     //     </div>
-//     // </div>
-//     <div className='bg-slate-400 h-screen flex flex-col'>
-//         <div className='bg-slate-300 relative'>
-//             <img src={stadium} alt='Ataturk Stadium' className='w-full brightness-50'/>
-//             <h1 className='absolute top-[300px] left-[35%] text-center text-9xl text-white font-bold'>Welcome To</h1>
-//             <img src={FTlogo} alt='FIFA Logo' className='absolute top-[389px] left-[10%] h-auto w-[85%]'/>
-//         </div>
-//         <div className='m-5 p-10 bg-slate-300'>
-//             <h1 className='text-center text-7xl font-bold'>FIFA World Cup Turkey 2026</h1>
-//             <p className='text-center text-xl mt-5'>
-//                 Experience the world’s greatest football event in the heart of culture, heritage, and excitement. 
-//                 Join us for a month-long adventure across Turkey’s iconic cities.
-//             </p>
-//         </div>
-//         <div className='m-5 p-10 bg-slate-300'>
-//             <h1 className='text-center text-5xl font-bold'>Discover More</h1>
-//             <div className='flex justify-center mt-5 space-x-10'>
-//                 <a href='/matches' className='text-xl underline text-blue-500'>Matches</a>
-//                 <a href='/packages' className='text-xl underline text-blue-500'>Packages</a>
-//                 <a href='/explore-turkiye' className='text-xl underline text-blue-500'>Explore Turkiye</a>
-//             </div>
-//         </div>
-//     </div>
-//   )
-// }
-
 export default function Home({ setCurrentPage }: { setCurrentPage: (page: string) => void }) {
   return (
     <div className='bg-slate-400 h-screen flex flex-col'>
         {/* Hero Section */}
         <div className='bg-slate-300 relative'>
             <img src={stadium} alt='Ataturk Stadium' className='w-full brightness-50'/>
-            <h1 className='absolute top-[200px] left-[30%] text-center text-9xl text-white font-bold'>Welcome To</h1>
-            <img src={FTlogo} alt='logo' className='absolute top-[300px] left-[10%] h-auto w-[85%]'/> 
-            <p className='absolute top-[750px] px-[5%] text-center text-6xl text-white'>
+            <h1 className="absolute top-[18%] left-[50%] transform -translate-x-1/2 text-center text-2xl md:text-5xl lg:text-7xl text-white font-bold">Welcome To</h1>
+            <img src={FTlogo} alt='logo' className='absolute top-[25%] left-[10%] h-auto w-[85%]'/> 
+            <p className="absolute top-[65%] left-[50%] transform -translate-x-1/2 px-4 md:px-10 lg:px-20 text-center text-lg md:text-2xl lg:text-4xl text-white leading-relaxed">
                 Discover the magic of football in Turkey – where East meets West, passion meets culture.
             </p>
         </div>

@@ -23,8 +23,8 @@ export default function Explore() {
                   alt='Turkish Landscape' 
                   className='w-full h-[500px] object-cover brightness-75'
               />
-              <h1 className='absolute top-[150px] left-[25%] text-center text-9xl text-white font-bold'>Explore Turkiye</h1>
-              <h2 className='absolute top-[250px] left-[23%] text-center text-7xl text-yellow-400 font-bold'>Discover Culture & Adventure</h2>
+              <h1 className="absolute top-[35%] left-[50%] transform -translate-x-1/2 text-center text-5xl md:text-6xl lg:text-8xl text-white font-bold">Explore Turkiye</h1>
+              <h2 className="absolute top-[50%] left-[50%] transform -translate-x-1/2 text-center text-2xl md:text-4xl lg:text-5xl text-yellow-400 font-bold">Discover Culture & Adventure</h2>
           </div>
   
           {/* Cities Section */}

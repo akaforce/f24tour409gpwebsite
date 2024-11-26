@@ -11,10 +11,8 @@ export default function Sustainability() {
           alt='Sustainability Banner'
           className='w-full h-[500px] object-cover brightness-75'
         />
-        <h1 className='absolute top-[175px] left-[25%] text-center text-9xl text-white font-bold'>Sustainability</h1>
-        <p className='absolute top-[280px] left-[15%] text-center text-4xl text-yellow-400'>
-          Why is sustainability important to us? Why is travelling sustainably important?
-        </p>
+        <h1 className="absolute top-[35%] left-[50%] transform -translate-x-1/2 text-center text-5xl md:text-6xl lg:text-7xl text-white font-bold">Sustainability</h1>
+        <h2 className="absolute top-[50%] left-[50%] transform -translate-x-1/2 text-center text-2xl md:text-4xl lg:text-5xl text-yellow-400 font-bold">Why is sustainability important to us? Why is travelling sustainably important?</h2>
       </div>
 
       {/* Sustainability Points Section */}
