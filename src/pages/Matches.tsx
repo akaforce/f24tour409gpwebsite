@@ -15,7 +15,7 @@ export default function Matches() {
                 alt="Fans Cheering"
                 className="w-full h-[300px] md:h-[400px] lg:h-[500px] object-cover brightness-75"
             />
-            <h1 className="absolute top-[25%] left-[50%] transform -translate-x-1/2 text-center text-5xl md:text-6xl lg:text-9xl text-white font-bold">
+            <h1 className="absolute top-[25%] left-[50%] transform -translate-x-1/2 text-center text-5xl md:text-6xl lg:text-8xl text-white font-bold">
                 Match Day
             </h1>
             <h2 className="absolute top-[55%] left-[50%] transform -translate-x-1/2 text-center text-2xl md:text-4xl lg:text-4xl text-yellow-400 font-bold">
